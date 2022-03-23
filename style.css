@@ -5,6 +5,10 @@ body {
     font-family: sans-serif;
 }
 
+body {
+    background: rgb(238,238,236);
+}
+
 #root {
     display: flex;
     flex-direction: column;
