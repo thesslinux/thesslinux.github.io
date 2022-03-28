@@ -1,29 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;600;800&display=swap");
 
 html,
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  padding: 0;
+  font-family: "Spartan", sans-serif;
 }
 
 body {
-    background: rgb(60,189,238);
-    color: white;
+  background: rgb(93, 93, 93);
+  color: white;
 }
 
 #root {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
 h1 {
-    font-size: 3rem;
-    margin-bottom: -0.5rem;
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: -1rem;
 }
 
-img {
-    width: 18.75rem;
+h1:hover {
+  text-shadow: 0 0 14px rgb(255, 255, 255);
+}
+
+h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+}
+
+#logo {
+  width: 15rem;
+  margin-top: 2rem;
+  -webkit-filter: drop-shadow(4px 4px 0 rgb(255, 255, 255))
+    drop-shadow(-4px -4px 0 rgb(255, 255, 255));
+  filter: drop-shadow(4px 4px 0 rgb(255, 255, 255))
+    drop-shadow(-4px -4px 0 rgb(255, 255, 255));
+}
+
+#logo:hover {
+  filter: drop-shadow(0 0 14px rgb(255, 255, 255));
 }
