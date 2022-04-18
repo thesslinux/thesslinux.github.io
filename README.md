@@ -5,6 +5,15 @@
   <p>The ThessLinux Homepage</p>
 </div>
 
+<br>
+<br>
+<br>
+<br>
+
+<div align="center">
+  <h4>Sponsored by:</h4>
+  <a href="https://fsfe.org/index.en.html" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/f/fc/Free_Software_Foundation_Europe%2C_logo.svg" width="200px" ></a>
+</div>
 
 [//]: # (Free Software)
 <div align="center">
