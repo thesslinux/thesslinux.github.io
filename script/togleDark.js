@@ -7,7 +7,7 @@ toggleDarkButton.addEventListener("click", function() {
     document.body.classList.toggle("light-mode");
 
     if (dark) {
-        logoPlaceholder.innerHTML = `<img id="logo" src="./assets/tux_color.svg"/>`
+        logoPlaceholder.innerHTML = `<img id="logo" src="./assets/blue-penguin.gif"/>`
         dark = !dark;
     } else {
         logoPlaceholder.innerHTML = `<img id="logo" src="./assets/tux_mono.svg"/>`
