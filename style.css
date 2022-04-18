@@ -6,11 +6,9 @@ body {
   padding: 0;
   font-family: "Spartan", sans-serif;
   text-align: center;
-}
-
-body {
-  background: rgb(93, 93, 93);
-  color: white;
+  height: 100vh;
+  background: rgb(110, 110, 110);
+  color: rgb(255, 255, 255);
 }
 
 #root {
@@ -18,6 +16,36 @@ body {
   flex-direction: column;
   align-items: center;
   margin: auto;
+}
+
+#toggle-dark-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  width:50px;
+  height: 50px;
+  border: 2px solid rgb(255, 255, 255);
+  background: rgb(32, 32, 32);
+  padding: 0;
+  border-radius: 50px;
+  padding-top: 0.15rem;
+}
+
+#toggle-dark-btn:hover {
+  cursor: pointer;
+  background: rgb(110, 110, 110);
+}
+
+#contrast-icon {
+  width: 35px;
+  height: 35px;
+  margin: 0;
+}
+
+.light-mode {
+  background: rgb(255, 255, 255);
+  color: rgb(32, 32, 32);
 }
 
 h1 {
